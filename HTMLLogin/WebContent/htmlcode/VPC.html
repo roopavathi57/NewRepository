@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>VPC Page</title>
+<style>
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0px;
+	overflow: hidden;
+	background-color: lightblue;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: inline;
+	color: black;
+	font-size: 10px;
+	text-align: right;
+	padding: 7px 10px;
+	text-decoration: none;
+	border-right: 1px solid black;
+	color: black;
+	font-size: 10px;
+	text-align: right;
+}
+
+.active {
+	background-color: blue;
+	color: white;
+}
+
+li a:hover {
+	background-color: orange;
+	color: white;
+}
+
+
+
+form {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+body{
+background-color: lightblue;
+}
+
+div {
+	
+	background-color: lightgreen;
+	color: black;
+	border: solid black;
+}
+
+</style>
+
+</head>
+<body>
+	<ul>
+		<li><a href="contact.html">Contact US</a></li>
+		<li><a href="aboutus.html">About Us</a></li>
+		<li><a href="service.html">Services</a>
+		<li><a href="HOme.html">Home</a></li>
+	</ul>
+
+	<br>
+	<h1>Creating VPC</h1>
+
+	<form action="createVPC.html" method="get">
+		<button type="submit">Create VPC</button>
+	</form>
+	<br>
+	<br>
+	<h1>Creating Net App VPC</h1>
+	<form action="createNetAppCVO.html" method="get">
+		<button type="submit">Create NetApp CVO</button>
+	</form>
+	<br>
+	<div id="one" align="center">
+		<p>Hi VPC and CVO created</p>
+		<p>and it is ready to use</p>
+		<form action="createVPC.html" method="get">
+		<button type="submit">Go Ahead</button>
+		</form>
+	</div>
+
+</body>
+</html>
